@@ -1,0 +1,223 @@
+/* Xóa gạch chân & đổi màu mặc định */
+a {
+  text-decoration: none;
+  color: black; /* Màu bình thường */
+  font-size: 15px;
+  font-family: "Times New Roman", serif;
+  transition: color 0.3s ease; /* Hiệu ứng mượt */
+}
+
+/* Khi di chuột vào, đổi màu */
+a:hover {
+  color: red; /* Đổi thành màu đỏ */
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+a {
+  text-decoration: none;
+}
+.lang {
+  color: #c67c4e;
+} /* Màu cam nhạt cho "Vietnamese" */
+.policy {
+  color: #0077cc;
+} /* Màu xanh + gạch chân */
+.software {
+  color: white;
+} /* Chữ trắng */
+.author {
+  color: #8a2be2;
+} /* Màu tím + gạch chân */
+.license {
+  font-weight: bold;
+  color: white;
+} /* Đậm màu trắng */
+.community {
+  color: #2a7a2a;
+} /* Màu xanh lá + gạch chân */
+
+.container {
+  display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+}
+img {
+  max-width: 100%; /* Đảm bảo hình ảnh không vượt quá kích thước của container */
+}
+
+/*Thanh nav*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b6b6b6;
+  padding: 10px 20px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  margin: 0 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  transition: color 0.3s;
+}
+
+.menu a:hover,
+.menu .active {
+  color: white;
+  font-weight: bold;
+}
+
+.search-box {
+  display: flex;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.search-box input {
+  border: none;
+  padding: 5px 10px;
+  outline: none;
+}
+
+.search-box button {
+  background-color: #5c7080;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: white;
+}
+
+/*Chỉnh phông chữ chân trang*/
+.title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+/*Chính sách bảo mật*/
+.header {
+  background-color: #0052cc;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: italic;
+}
+.header::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: white;
+  margin: 10px auto 0;
+}
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.footer {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  padding: 20px;
+}
+
+/* Blog */
+hr {
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+hr {
+  border: 0;
+  border-bottom: solid 1px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: initial;
+  margin: 2 5rem 0;
+  margin-top: 2.5rem;
+  margin-right: 0px;
+  margin-bottom: 2.5rem;
+  margin-left: 0px;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: initial;
+  border-right-style: initial;
+  border-bottom-style: initial;
+  border-left-style: initial;
+  border-top-color: initial;
+  border-right-color: initial;
+  border-bottom-color: initial;
+  border-left-color: initial;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgba(0, 0, 0, 0.1);
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow-x: visible;
+  overflow-y: visible;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+hr {
+  display: block;
+  margin-block-start: 0.5cm;
+  margin-block-end: 0.5cm;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  unicode-bidi: isolate;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  border-top-style: inset;
+  border-right-style: inset;
+  border-bottom-style: inset;
+  border-left-style: inset;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-style: 1px;
+  border-left-width: 1px;
+}
